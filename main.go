@@ -21,7 +21,7 @@ func main() {
 				fmt.Println(getVersion())
 				return nil
 			},
-		}
+		},
 	}
 	err := app.Run(os.Args)
 	if err != nil {
