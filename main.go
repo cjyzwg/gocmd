@@ -12,7 +12,7 @@ func main() {
     var language string
  
     app := cli.NewApp()
-    app.Name = "cjcmd"
+    app.Name = "gocmd"
     app.Usage = "hello world"
     app.Version = "1.2.3"
     app.Flags = []cli.Flag {
